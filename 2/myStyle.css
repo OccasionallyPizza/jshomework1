@@ -1,0 +1,40 @@
+@font-face {
+	font-family: 'titleFont'; /*a name to be used later*/
+	src: url('title-font.ttf'); /*URL to font*/
+}
+body {
+	background-color: #66CCFF;
+	padding-left:10%;
+	padding-right:10%;
+}
+
+#title {
+	color: #FFFFFF;
+	font-size: 50px;
+	font-family: titleFont;
+	text-align: center;
+}
+
+.imageContainer {
+	margin:auto;
+	width:50%;
+}
+
+#javascriptImage {
+	height: 200px;
+}
+
+.column {
+	width:50%;
+	float:left;
+}
+#specific_id {
+	width: 45%;
+}
+
+blockquote {
+	font-family: Courier new;
+	font-size:14px;
+	font-weight:500;
+}
+
