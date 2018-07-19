@@ -1,5 +1,5 @@
 function line(length,char1,char2){
-	let text="|";
+	let text="";
 	for (u=0;u<length;u++){
 		if(u%2==0){
 			text=text+char1;
@@ -7,7 +7,7 @@ function line(length,char1,char2){
 			text=text+char2;
 		}
 	}
-	text = text + "|\n";	
+	text = text + "\n";	
 	return text;
 }
 
